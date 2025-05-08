@@ -1,6 +1,24 @@
 # 🛡️ VPN Setup Using OpenVPN
 
-This project demonstrates how to set up a secure VPN using OpenVPN on Ubuntu Linux. It includes key generation, server configuration, IP forwarding, and client file packaging. Screenshots are included for each step.
+This project demonstrates how to set up a secure VPN using OpenVPN on a Linux server (Ubuntu). It showcases certificate-based authentication, IP forwarding, and secure client setup — all documented with terminal screenshots.
+
+---
+
+## 🔧 Tools & Technologies
+
+- Ubuntu (Linux)
+- OpenVPN
+- easy-rsa
+- systemd
+
+---
+
+## 📋 Steps Completed
+
+### 1. Install OpenVPN and easy-rsa
+```bash
+sudo apt install openvpn easy-rsa
+
 
 ## 📋 Steps Completed
 
